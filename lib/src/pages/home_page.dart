@@ -20,14 +20,14 @@ class _MyHomePageState extends State<MyHomePage> {
           height: double.infinity,
           decoration: BoxDecoration(
               gradient: LinearGradient(colors: <Color>[
-            Color.fromARGB(255, 224, 131, 77),
-            Color.fromARGB(21, 228, 201, 23)
+            Color.fromARGB(255, 77, 199, 224),
+            Color.fromARGB(20, 184, 180, 154),
           ], begin: Alignment.topCenter)),
           child: ListView(
             padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 200),
             children: <Widget>[
               //!Aqui se ubica el URL de una imagen
-              IconContainers(url: "images/cora.jpg"),
+              IconContainers(url: "images/logo.png"),
               Text(
                 "Bienvenidos a mi curso",
                 style: TextStyle(
@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text(
                     "SING UP",
                     style: TextStyle(
-                        color: Colors.orange,
+                        color: Color.fromARGB(255, 92, 88, 88),
                         fontFamily: "FredokaOne",
                         fontSize: 30.0),
                   ),
@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text(
                     "SING IN",
                     style: TextStyle(
-                        color: Colors.orange,
+                        color: Color.fromARGB(255, 92, 88, 88),
                         fontFamily: "FredokaOne",
                         fontSize: 30.0),
                   ),
